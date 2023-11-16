@@ -1,4 +1,6 @@
-def saludos():
-    print("Hola como vamos")
+alumnos = ['Jose','Maria','Pedro','Antonella']
 
-saludos()
+
+for i in range(0, len(alumnos) ):
+    if alumnos[i] == 'Pedro':
+        print("Hola pedro como vas")
